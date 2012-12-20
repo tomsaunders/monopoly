@@ -1,0 +1,114 @@
+{
+    "event": "suiteStart",
+    "suite": ".",
+    "tests": 6
+}{
+    "event": "suiteStart",
+    "suite": "DiceTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "DiceTest",
+    "test": "DiceTest::testRandomness"
+}{
+    "event": "test",
+    "suite": "DiceTest",
+    "test": "DiceTest::testRandomness",
+    "status": "pass",
+    "time": 4.3986368179321,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PlayerTest",
+    "tests": 5
+}{
+    "event": "testStart",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testBanking"
+}{
+    "event": "test",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testBanking",
+    "status": "pass",
+    "time": 0.019721031188965,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testKill"
+}{
+    "event": "test",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testKill",
+    "status": "pass",
+    "time": 0.0066819190979004,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::test__toString"
+}{
+    "event": "test",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::test__toString",
+    "status": "pass",
+    "time": 0.0060050487518311,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testMove"
+}{
+    "event": "test",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testMove",
+    "status": "pass",
+    "time": 0.0078170299530029,
+    "trace": [
+
+    ],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testMoveTo"
+}{
+    "event": "test",
+    "suite": "PlayerTest",
+    "test": "PlayerTest::testMoveTo",
+    "status": "fail",
+    "time": 0.010431051254272,
+    "trace": [
+        {
+            "file": "D:\\webspace\\www\\monopoly\\tests\\PlayerTest.php",
+            "line": 83,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                10,
+                30,
+                "Gone to Jail"
+            ]
+        }
+    ],
+    "message": "Gone to Jail\nFailed asserting that 30 matches expected 10.",
+    "output": ""
+}
